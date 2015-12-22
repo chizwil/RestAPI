@@ -14,6 +14,8 @@
 		3F9FD2121C29BAAA0076A0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FD2101C29BAAA0076A0B6 /* LaunchScreen.storyboard */; };
 		3F9FD21D1C29BAAA0076A0B6 /* RestAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD21C1C29BAAA0076A0B6 /* RestAPITests.swift */; };
 		3F9FD2281C29BAAB0076A0B6 /* RestAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD2271C29BAAB0076A0B6 /* RestAPIUITests.swift */; };
+		3F9FD2361C29BC040076A0B6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD2351C29BC040076A0B6 /* SwiftyJSON.swift */; };
+		3F9FD2381C29BC490076A0B6 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD2371C29BC490076A0B6 /* RestApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F9FD2231C29BAAA0076A0B6 /* RestAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9FD2271C29BAAB0076A0B6 /* RestAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIUITests.swift; sourceTree = "<group>"; };
 		3F9FD2291C29BAAB0076A0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9FD2351C29BC040076A0B6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		3F9FD2371C29BC490076A0B6 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		3F9FD2061C29BAAA0076A0B6 /* RestAPI */ = {
 			isa = PBXGroup;
 			children = (
+				3F9FD2351C29BC040076A0B6 /* SwiftyJSON.swift */,
 				3F9FD2071C29BAAA0076A0B6 /* AppDelegate.swift */,
 				3F9FD2091C29BAAA0076A0B6 /* ViewController.swift */,
 				3F9FD20B1C29BAAA0076A0B6 /* Main.storyboard */,
 				3F9FD20E1C29BAAA0076A0B6 /* Assets.xcassets */,
 				3F9FD2101C29BAAA0076A0B6 /* LaunchScreen.storyboard */,
 				3F9FD2131C29BAAA0076A0B6 /* Info.plist */,
+				3F9FD2371C29BC490076A0B6 /* RestApiManager.swift */,
 			);
 			path = RestAPI;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9FD2361C29BC040076A0B6 /* SwiftyJSON.swift in Sources */,
 				3F9FD20A1C29BAAA0076A0B6 /* ViewController.swift in Sources */,
+				3F9FD2381C29BC490076A0B6 /* RestApiManager.swift in Sources */,
 				3F9FD2081C29BAAA0076A0B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
